@@ -33,7 +33,7 @@ int main(int argc, char** argv)
         // Default parameters
         std::uint32_t window_width = 1280;
         std::uint32_t window_height = 720;
-        bool use_opengl = false;
+        bool use_opengl = true;
         std::string scene_path = "assets/ShaderBalls.obj";
         float scene_scale = 1.0f;
         bool flip_yz = false;
